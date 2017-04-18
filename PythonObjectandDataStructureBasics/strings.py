@@ -1,5 +1,5 @@
 # To use print function from Python 3 in Python2
-#from  __future__ import print_function
+# from  __future__ import print_function
 
 # String word
 print("hello world")
@@ -19,62 +19,62 @@ print(len("Hello World"))
 s = "Hello World"
 print(s)
 
-#indexing
-#in python index starting on 0
+# indexing
+# in python index starting on 0
 print(s[0])
 print(s[1])
 
-#Slicing a string
+# Slicing a string
 print(s[1:])
-#ello World
+# ello World
 print(s[:5])
-#Hello
+# Hello
 print(s[1:4])
-#ell
+# ell
 print(s[-1])
-#d
+# d
 print(s[:-1])
-#Hello Worl
+# Hello Worl
 
-#Grab Everything Step size 1
+# Grab Everything Step size 1
 print(s[::1])
-#Hello World
+# Hello World
 
-#Grab Everything Step size 2
+# Grab Everything Step size 2
 print(s[::2])
-#HloWrd
+# HloWrd
 
-#Grab Everything reverse Step size 1
+# Grab Everything reverse Step size 1
 print(s[::-1])
-#dlroW olleH
+# dlroW olleH
 
 print(s)
-#String Properties
-#String Properties Knows as "immutabillity"
-#Once a string is created the elements within it can't change or replace
-#s[0]  = 'x'
-#TypeError:'str' object does not support item assignment
+# String Properties
+# String Properties Knows as "immutabillity"
+# Once a string is created the elements within it can't change or replace
+# s[0]  = 'x'
+# TypeError:'str' object does not support item assignment
 
-#but you can concatenate / adding new string together
+# but you can concatenate / adding new string together
 s = s + " concatenate me!"
 print(s)
 
 letter = 'za'
 print(letter * 10)
-#zazazazazazazazazaza
+# zazazazazazazazazaza
 
 s = "Hello python"
 print(s.upper())
-#HELLO PYTHON
+# HELLO PYTHON
 
 print(s.capitalize())
-#Hello python
+# Hello python
 
 print(s.lower())
-#hello python
+# hello python
 
 print(s.split())
-#['Hello', 'python']
+# ['Hello', 'python']
 
 print(s.split('o'))
-#['Hell', ' pyth', 'n']
+# ['Hell', ' pyth', 'n']
