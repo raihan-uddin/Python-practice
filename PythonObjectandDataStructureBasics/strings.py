@@ -73,8 +73,10 @@ print(s.capitalize())
 print(s.lower())
 # hello python
 
+# Split a string by blank space (this is the default)
 print(s.split())
 # ['Hello', 'python']
 
+# Split by a specific element (doesn't include the element that was split on)
 print(s.split('o'))
 # ['Hell', ' pyth', 'n']
