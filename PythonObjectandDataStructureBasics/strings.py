@@ -52,5 +52,29 @@ print(s)
 #String Properties
 #String Properties Knows as "immutabillity"
 #Once a string is created the elements within it can't change or replace
-s[0]  = 'x'
+#s[0]  = 'x'
 #TypeError:'str' object does not support item assignment
+
+#but you can concatenate / adding new string together
+s = s + " concatenate me!"
+print(s)
+
+letter = 'za'
+print(letter * 10)
+#zazazazazazazazazaza
+
+s = "Hello python"
+print(s.upper())
+#HELLO PYTHON
+
+print(s.capitalize())
+#Hello python
+
+print(s.lower())
+#hello python
+
+print(s.split())
+#['Hello', 'python']
+
+print(s.split('o'))
+#['Hell', ' pyth', 'n']
