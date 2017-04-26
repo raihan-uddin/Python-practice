@@ -62,3 +62,14 @@ fir_col = [row[0] for row in matrix]
 print(fir_col)
 
 print([row[2] for row in matrix])
+
+my_list = [1, 1, [1, 2]]
+print(my_list)
+print(my_list[2][0])
+
+lst=[0,1,2]
+lst.pop()
+print(lst)
+
+lst=['a','b','c']
+print(lst[1:])
