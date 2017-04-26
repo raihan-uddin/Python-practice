@@ -28,6 +28,4 @@ l[0] = 's'
 print(l)
 
 # 'tuple' object does not support item assignment
-# t[0] = 's'
-
-
+#  t[0] = 's'
