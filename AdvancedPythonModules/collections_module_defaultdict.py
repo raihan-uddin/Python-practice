@@ -14,6 +14,8 @@ for item in d:
     print(item)
 # one
 
+
+
 d = defaultdict(lambda : 0)
 print(d['one'])
 print(d['two'])

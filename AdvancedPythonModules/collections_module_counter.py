@@ -25,7 +25,6 @@ print(c.most_common(3))
 
 """
 Common patterns when using the Counter() object
-
 sum(c.values())                         # total of all counts
 c.clear()                               # Reset all counts
 list(c)                                 # list unique elements

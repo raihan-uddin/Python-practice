@@ -31,12 +31,15 @@ for k, v in d.items():
     print(k, v)
 
 
+
 d1 = OrderedDict({
     "a":1,
     "b":2
 })
+
 d2 = OrderedDict({
     "b":2,
     "a":1
 })
+
 print(d1 == d2)
